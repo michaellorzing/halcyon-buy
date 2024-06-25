@@ -18,9 +18,11 @@ export default async function Post({ post }: { post: Sanity.BlogPost }) {
 
 	return (
 		<>
-			<article>
-				<header className="section space-y-6 text-center">
-					<h1 className="h1 text-balance">{post.metadata.title}</h1>
+			<article className={css.background}>
+				<header className="section space-y-3 text-center">
+					<h1 className="h1 text-balance text-blue-500">
+						{post.metadata.title}
+					</h1>
 					<div className="flex flex-wrap items-center justify-center gap-x-4">
 						<Date value={post.publishDate} />
 						<Categories categories={post.categories} />

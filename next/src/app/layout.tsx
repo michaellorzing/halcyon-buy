@@ -28,7 +28,7 @@ export default async function RootLayout({
 			<body className="bg-canvas text-ink">
 				<SkipToContent />
 				<Announcement />
-				<Header />
+				{/* <Header /> */}
 				<main id="main-content" tabIndex={-1}>
 					{children}
 				</main>

@@ -40,6 +40,7 @@ export default function Hero({
 						image={bgImage}
 						imageWidth={1800}
 						draggable={false}
+						style={{ maxHeight: '70vh' }}
 					/>
 				</picture>
 			)}
