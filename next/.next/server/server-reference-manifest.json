@@ -1,0 +1,20 @@
+{
+  "node": {
+    "fac2dafd8150a6c0e339fd5154d35e89917c02d5": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CDevelopment%5C%5Chalcyon-buy%5C%5Cnext%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
+        "app/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CDevelopment%5C%5Chalcyon-buy%5C%5Cnext%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
+        "app/_not-found/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CDevelopment%5C%5Chalcyon-buy%5C%5Cnext%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!",
+        "app/blog/[slug]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22E%3A%5C%5CDevelopment%5C%5Chalcyon-buy%5C%5Cnext%5C%5Cnode_modules%5C%5Cnext-sanity%5C%5Cdist%5C%5Cvisual-editing%5C%5Cserver-actions.js%22%2C%5B%22revalidateRootLayout%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/[slug]/page": "action-browser",
+        "app/_not-found/page": "action-browser",
+        "app/blog/[slug]/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "IVEEWU/NkwhPNdL4DknFRGBpxd9VgVwtYyDHORMrznw="
+}
